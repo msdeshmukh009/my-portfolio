@@ -7,7 +7,7 @@ hr{
     margin: 2rem 0rem;
 }
 :root {
-    --primary-color: #7c3aed;
+    --primary-color: #171717;
     --off-white:#f3f4f6;
     --dark-gray: #6b7280;
 }
@@ -20,4 +20,52 @@ hr{
     max-width: 37.5rem;
     margin: auto;
     text-align: center;
+}
+
+/* links */
+
+.link{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.link-primary{
+background-color: var(--primary-color);
+color: white;
+border-radius: 0.5rem;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:var(--primary-color) solid 1px;
+}
+
+/* lists */
+.list-nobullet{
+    list-style: none;
+}
+.list-item-inline{
+    list-style: none;
+    display: inline;
+    margin: 0rem 1rem;
+}
+
+/* nav-bar */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-pills{
+    text-align: right;
+}
+.brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.active-link{
+    font-weight: bold;
 }

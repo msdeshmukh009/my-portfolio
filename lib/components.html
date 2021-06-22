@@ -43,26 +43,26 @@
     <!-- links -->
     <h2>@links</h2>
     <p>Currently we are using two types of link. Primary link for important stuff and secondaryfor not so important.</p>
-    <a href="/">primary link</a>
-    <a href="/">secondary link</a>
+    <a class="link link-primary" href="/">primary link</a>
+    <a class="link link-secondary" href="/">secondary link</a>
     <hr>
 
     <!-- lists -->
     <h2>@lists</h2>
     <h3>unordered list</h3>
     <p>This list will not contain bullets which are default.</p>
-    <ul>
+    <ul class="list-nobullet">
         <li>First Item</li>
         <li>Second Item</li>
         <li>Third Item</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <p>This is unordered without bullet inline list.</p>
-    <ul>
-        <li>First Inline Item</li>
-        <li>Second Inline Item</li>
-        <li>Third Inline Item</li>
+    <p>This is unordered list without bullet inline list.</p>
+    <ul class="list-nobullet">
+        <li class="list-item-inline">First Inline Item</li>
+        <li class="list-item-inline">Second Inline Item</li>
+        <li class="list-item-inline">Third Inline Item</li>
     </ul>
 
     <h3>reverse ordered list</h3>
@@ -76,17 +76,17 @@
 
     <!-- nav-bar    -->
     <h2>@nav-bar</h2>
-    <nav>
-        <div>iambrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation">
+        <div class="brand">iambrand</div>
+        <ul class="list-nobullet nav-pills">
+            <li class="list-item-inline ">
+                <a class="nav-link active-link" href="/">home</a>
             </li>
-            <li>
-                <a href="/">projects</a>
+            <li class="list-item-inline">
+                <a class="nav-link" class="link" href="/">projects</a>
             </li>
-            <li>
-                <a href="/">blogs</a>
+            <li class="list-item-inline">
+                <a class="nav-link" href="/">blogs</a>
             </li>
         </ul>
     </nav>
