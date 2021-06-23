@@ -18,7 +18,7 @@ hr {
 /* container */
 .container {
     padding: 0rem 1rem;
-    margin:0.5rem 0rem ;
+    margin-bottom: 2rem ;
 }
 
 .container-center {
@@ -101,6 +101,7 @@ hr {
 .hero-heading {
     padding: 1rem;
     font-size: 2rem;
+    margin-bottom: 0rem;
     color: var(--dark-gray);
     text-align: center;
 }
@@ -139,4 +140,12 @@ hr {
 
 .footer-link {
     color: white;
+}
+
+/* blog */
+.blog-heading{
+    margin-bottom: 0.4375rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    color: var(--primary-color);
 }
