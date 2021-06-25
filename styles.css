@@ -93,6 +93,7 @@ hr {
 
 .hero-img {
     max-width: 21.875rem;
+    max-height: 21.875rem;
     display: block;
     margin: auto;
     border-radius:50%;
