@@ -77,8 +77,9 @@ hr {
     text-align: right;
 }
 
-.nav-brand {
-   color: white;
+.nav-brand a {
+   text-decoration: none;
+   color: inherit;
 }
 
 .link-active {
