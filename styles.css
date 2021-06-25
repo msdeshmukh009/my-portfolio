@@ -68,8 +68,11 @@ hr {
     padding: 0.5rem;
 }
 
-.nav-link {
+/* .nav-link {
     text-decoration: none;
+    color: white;
+} */
+.navigation .link{
     color: white;
 }
 
