@@ -68,10 +68,7 @@ hr {
     padding: 0.5rem;
 }
 
-/* .nav-link {
-    text-decoration: none;
-    color: white;
-} */
+
 .navigation .link{
     color: white;
 }
@@ -80,12 +77,12 @@ hr {
     text-align: right;
 }
 
-.brand {
-    font-weight: bold;
-    font-size: 1.1rem;
+.nav-brand a {
+    text-decoration: none;
+    color: inherit ; 
 }
 
-.active-link {
+.link-active {
     font-weight: bold;
 }
 
