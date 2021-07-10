@@ -28,6 +28,7 @@ hr {
 /* links */
 
 .link {
+    box-sizing: border-box;
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
