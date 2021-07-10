@@ -18,13 +18,11 @@ hr {
 /* container */
 .container {
     padding: 0rem 1rem;
-    margin-bottom: 2rem ;
 }
 
 .container-center {
     max-width: 40rem;
     margin: auto;
-    /* text-align: center; */
 }
 
 /* links */
@@ -32,7 +30,6 @@ hr {
 .link {
     padding: 0.5rem 1rem;
     text-decoration: none;
-    margin:0.5rem 0.5rem ;
 }
 
 .link-primary {
@@ -51,21 +48,25 @@ hr {
 }
 
 /* lists */
-.list-nobullet {
+.list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline {
-    list-style: none;
     display: inline;
-    margin: 0rem 1rem;
+    margin: 0rem 0.5rem;
 }
 
 /* nav-bar */
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
 }
 
 
@@ -73,7 +74,7 @@ hr {
     color: white;
 }
 
-.nav-pills {
+.navigation .nav-pills {
     text-align: right;
 }
 
@@ -82,8 +83,9 @@ hr {
    color: inherit;
 }
 
-.link-active {
+.navigation .link-active {
     font-weight: bold;
+    padding-top: 5rem;
 }
 
 /* header */
@@ -92,17 +94,13 @@ hr {
 }
 
 .hero-img {
-    max-width: 21.875rem;
-    max-height: 21.875rem;
+    max-width: 80%;
+    width: 350px;
     display: block;
     margin: auto;
-    border-radius:50%;
 }
-
 .hero-heading {
-    padding: 1rem;
-    font-size: 2rem;
-    margin-bottom: 0rem;
+    padding-top: 1rem;
     color: var(--dark-gray);
     text-align: center;
 }
@@ -127,20 +125,25 @@ hr {
 
 /* footer */
 .footer {
-    padding: 2rem;
+    padding: 4rem 1rem;
     background-color: var(--primary-color);
-    border: top right radius 0.5rem;
+    border-top-right-radius: 1rem;
+    color: white;
     text-align: center;
-    margin-top: 1rem;
 }
 
 .footer-heading {
-    color: white;
     font-weight: bold;
+    font-size: large;
 }
-
+.footer ul {
+    padding-inline-start: 0px;
+}
 .footer-link {
     color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin:0.5rem 1rem ;
 }
 
 /* blog */
