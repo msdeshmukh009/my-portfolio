@@ -10,9 +10,15 @@ hr {
 }
 
 :root {
-    --primary-color: #171717;
+    --primary-color: #00bcf0;
     --off-white: #f3f4f6;
-    --dark-gray: #A0937D;
+    --dark-gray: #303539;
+    --yellow:#ffe556;
+
+
+    /* --primary-color: #171717;
+    --off-white: #f3f4f6;
+    --dark-gray: #A0937D; */
 }
 
 /* container */
@@ -36,9 +42,9 @@ hr {
 .link-primary {
     display: block;
     max-width: 140px;
-    
+    font-weight: bold;
     background-color: var(--primary-color);
-    color: white;
+    color:var(--yellow);
     border-radius: 0.5rem;
     margin: 1rem 1rem 1rem 0rem;
 }
@@ -70,7 +76,7 @@ hr {
 /* nav-bar */
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    color:var(--yellow);
     padding: 1rem;
 }
 .navigation .nav-brand{
@@ -79,7 +85,7 @@ hr {
 
 
 .navigation .link{
-    color: white;
+    color: var(--yellow);
 }
 
 .navigation .nav-pills {
@@ -136,7 +142,7 @@ hr {
     padding: 4rem 1rem;
     background-color: var(--primary-color);
     border-top-right-radius: 1rem;
-    color: white;
+    color: var(--yellow);
     text-align: center;
 }
 
