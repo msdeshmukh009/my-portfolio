@@ -14,7 +14,8 @@ hr {
     --off-white: #f3f4f6;
     --dark-gray: #303539;
     --yellow:#ffe556;
-
+    --code-bg:#f5f2f0;
+    --code:#3a3a3a;
 
     /* --primary-color: #171717;
     --off-white: #f3f4f6;
@@ -122,6 +123,10 @@ hr {
 .hero-heading-inverted {
     color: var(--primary-color);
 }
+.hero .date{
+    text-align: center;
+
+}
 
 /* sections  */
 .section {
@@ -166,4 +171,9 @@ hr {
     margin-left: 0rem;
     padding-left: 0rem;
     color: var(--primary-color);
+}
+.html-tag{
+    background-color: var(--code-bg);
+    color: var(--code);
+    border: 1px solid rgba(51,51,51,.1);
 }
