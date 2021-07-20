@@ -170,7 +170,7 @@ hr {
     margin-bottom: 0.4375rem;
     margin-left: 0rem;
     padding-left: 0rem;
-    color: var(--primary-color);
+    color: #000000;
 }
 .html-tag{
     background-color: var(--code-bg);
