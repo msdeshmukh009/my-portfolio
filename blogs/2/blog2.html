@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerText vs innerHTML</title>
+    <link href="../../styles.css" rel="stylesheet" />
+    <link  href="/favicon/M.ico" rel="icon" />
+</head>
+<body>
+  <main >
+  <header class="hero" >
+    <h1 class="hero-heading" >innerText vs innerHTML</h1>
+    <strong style="font-size: 0.83255rem; line-height: 1.75rem;
+     display: block; margin-bottom: 1.75rem; margin-top: 1.75rem; text-align: center;">16 Aug 2021</strong>
+    <img style="max-width: 75vw; max-height: 75vh; display: block; margin: auto; " src="hero.jpg"/>
+  </header> 
+  
+  <article style="line-height: 2rem;" class="container container-center" >
+    <h2>Introduction</h2>
+    <p >
+        I started learning JavaScript a month or two ago via neogCamp level0.
+         That's where I first encounter these two properties of JavaScript. 
+         Sometimes I was using <span class="html-tag"> innerText</span> to get my work done and sometimes <span class="html-tag"> innerHTML</span> honestly speaking I never paid much attention to what I was using I relied too much on my code editor.
+         But, let's now talk about what to use where.
+    </p> 
+      
+      
+     <h2>innerText: </h2> 
+     <p>
+        In simple words, this property lets you put text(string) inside the HTML element from the JavaScript side. 
+        innerText retrieves and sets the content of the tag as plain text.
+         So, whatever string you are passing innerText will place it as plain text inside your HTML element for viewers to see.
+         An example of that will be like this.
+     </p>
+     <img style="max-width: 70vw; max-height: 70vh; " src="innerText.jpg"/>
+     <h2>innerHTML:</h2>
+     <p>
+        Now as its name suggests this property lets you print content between HTML tags, including text information. 
+        Unlike innerText, though, innerHTML lets you work with HTML-rich text and doesn't automatically encode and decode text. 
+        That means you can use innerHTML to pass normal text as well but, you cant use innerText in place of innerHTML.
+         An example of innerHTML will be like this.
+      </p>
+      <img style="max-width: 70vw; max-height: 70vh; " src="innerHTML.jpg"/>
+      <h2>comparison:</h2>
+      <img style="max-width: 70vw; max-height: 70vh; " src="html vs text.jpg"/>
+      <p>innerText is printing pure text from the given string and 
+          innerHTML is decoding the string as simple text as well as HTML element.</p>
+  </article>
+</main>
+<hr style="border: dotted #A0937D 6px;
+    border-bottom: none;
+    width: 4rem;
+    margin:2rem auto;">
+<!-- footer -->
+<footer style="text-align: center; ">
+ 
+  <ul style="padding-inline-start: 0px;" class="list-nobullet">
+      <li class="list-item-inline">
+          <a href="https://github.com/msdeshmukh009" imageanchor="1"><img src="../../github.png" border="0"></a>
+      </li>
+      <li class="list-item-inline">
+          <a href="https://twitter.com/wayiambot" imageanchor="1"><img src="../../twitter.png" border="0"></a>
+      </li>
+      <li class="list-item-inline">
+          <a href="mailto:deshmukhmahesh009@gmail.com" imageanchor="1"><img src="../../gmail.png" border="0"></a>
+      </li>
+      <li class="list-item-inline">
+          <a href="https://www.linkedin.com/in/mahesh-deshmukh-413830185/" imageanchor="1"><img src="../../linkedin.png" border="0"></a>
+      </li> 
+  </ul>
+</footer>
+</body>
+</html>
