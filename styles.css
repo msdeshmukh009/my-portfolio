@@ -31,7 +31,9 @@ hr {
     max-width: 40rem;
     margin: auto;
 }
-
+.project-h1{
+    font-size: 1.8rem;
+}
 /* links */
 
 .link {
@@ -58,6 +60,35 @@ hr {
 .project-link{
     margin: 2rem 2rem;
 }
+.inline-link{
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.inline-link-primary{
+    width: 116.14px;
+   max-width: 140px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color:var(--yellow);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display:inline-block ;
+     font-size:65%;
+     margin-right: 00.5rem; 
+}
+.inline-link-secondary{
+    box-sizing: border-box;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: var(--primary-color) solid 1px;
+    font-size: 65%;
+}
+.inline-link-div{
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+     width: 100%;
+}
 
 /* lists */
 .list-non-bullet {
@@ -71,6 +102,18 @@ hr {
 }
 .showcase-list {
     padding: 2rem;
+}
+.ul-list{
+    width: 80%;
+    margin: auto;
+}
+.card{
+    border: solid #3a3a3a 1px; 
+    padding: 1rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 20px 20px 20px #bebebe, 22px 22px 22px #ffffff;
+    /* box-shadow:  20px 20px 20px #bebebe, 20px 20px 20px #ffffff; */
+    margin: 1.5rem auto 1rem;
 }
 
 
