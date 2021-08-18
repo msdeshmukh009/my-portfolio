@@ -142,6 +142,13 @@ hr {
     text-align: center;
 }
 
+/* icons */
+.tech-icon{
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
 /* footer */
 .footer {
     padding: 4rem 1rem;
