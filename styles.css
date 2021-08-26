@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0rem;
-    color: var(--dark-gray);
 }
 
 hr {
@@ -11,16 +10,17 @@ hr {
 }
 
 :root {
-    --primary-color: #00bcf0;
-    --off-white: #f3f4f6;
-    --dark-gray: #303539;
-    --yellow:#ffe556;
+    /* --primary-color: #00bcf0; */
+    /* --off-white: #f3f4f6;
+    --dark-gray: #303539; */
+    /* --secondary-color:#ffe556; */
     --code-bg:#f5f2f0;
     --code:#3a3a3a;
 
-    /* --primary-color: #171717;
+    --primary-color: #171717;
+    --secondary-color:white;
     --off-white: #f3f4f6;
-    --dark-gray: #A0937D; */
+    --dark-gray: #A0937D;
 }
 
 /* container */
@@ -48,7 +48,7 @@ hr {
     max-width: 140px;
     font-weight: bold;
     background-color: var(--primary-color);
-    color:var(--yellow);
+    color:var(--secondary-color);
     border-radius: 0.5rem;
     margin: 1rem 1rem 1rem 0rem;
 }
@@ -71,7 +71,7 @@ hr {
    max-width: 140px;
     font-weight: bold;
     background-color: var(--primary-color);
-    color:var(--yellow);
+    color:var(--secondary-color);
     border-radius: 0.5rem;
     box-sizing: border-box;
     display:inline-block ;
@@ -121,7 +121,7 @@ hr {
 /* nav-bar */
 .navigation {
     background-color: var(--primary-color);
-    color:var(--yellow);
+    color:var(--secondary-color);
     padding: 1rem;
 }
 .navigation .nav-brand{
@@ -130,7 +130,7 @@ hr {
 
 
 .navigation .link{
-    color: var(--yellow);
+    color: var(--secondary-color);
 }
 
 .navigation .nav-pills {
@@ -195,10 +195,10 @@ hr {
 
 /* footer */
 .footer {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     background-color: var(--primary-color);
     border-top-right-radius: 1rem;
-    color: var(--yellow);
+    color: var(--secondary-color);
     text-align: center;
 }
 
