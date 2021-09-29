@@ -112,11 +112,16 @@ hr {
     border: solid #3a3a3a 1px; 
     padding: 1rem; 
     border-radius: 0.5rem; 
-    box-shadow: 20px 20px 20px #bebebe, 22px 22px 22px #ffffff;
+   
     /* box-shadow:  20px 20px 20px #bebebe, 20px 20px 20px #ffffff; */
     margin: 1.5rem auto 1rem;
 }
-
+.card:hover{
+    box-shadow: 20px 20px 20px #bebebe, 22px 22px 22px #ffffff;
+}
+.card:hover +.icons{
+    display: block;
+}
 
 /* nav-bar */
 .navigation {
@@ -191,6 +196,14 @@ hr {
     padding: 1rem;
     width: 2rem;
     height: 2rem;
+}
+.stack-img{
+    padding: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.explanation-para{
+    margin-top: 0.2rem;
 }
 
 /* footer */
